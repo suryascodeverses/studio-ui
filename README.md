@@ -1,6 +1,14 @@
 # Studio
 
-A modern, animated web experience built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**. Studio features a salon-style landing page and an interactive Stripe-inspired payment systems diagram, with a shared modular component architecture.
+A modern, animated web experience built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.  
+Studio features a salon-style landing page and an interactive Stripe-inspired payment systems diagram, with a shared modular component architecture.
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Live View:**  
+👉 https://studio-ui-rho.vercel.app/
 
 ---
 
@@ -24,7 +32,7 @@ studio/
 │   ├── app/
 │   │   ├── layout.tsx         # Root layout — shared Header + Footer
 │   │   ├── globals.css        # Global styles + shared component styles
-│   │   ├── page.tsx           # Page 1 — Salon landing page (/)
+│   │   ├── page.tsx           # Page 1 — landing page (/)
 │   │   └── task2/
 │   │       └── page.tsx       # Page 2 — Stripe diagram (/task2)
 │   │
@@ -48,7 +56,7 @@ studio/
 
 ## Pages
 
-### `/` — Salon Landing Page
+### `/` — Landing Page
 The main landing page featuring:
 - **Dark mode toggle** — SVG-based day/night toggle with smooth fade transition
 - **CTA Slider** — Optimized `requestAnimationFrame` animation (zero React re-renders). Car icon travels across a gradient bar revealing Design → Develop → Test labels. Fully draggable/touch-enabled.

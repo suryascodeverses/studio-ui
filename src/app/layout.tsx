@@ -6,6 +6,9 @@ import Footer from "@/components/footer";
 export const metadata: Metadata = {
   title: "Studio — Visuals That Convert",
   description: "Premium visual studio turning visitors into customers",
+  icons: {
+    icon: "/assets/svg/favicon.svg",
+  },
 };
 
 export default function RootLayout({
